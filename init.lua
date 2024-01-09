@@ -278,6 +278,10 @@ vim.o.hlsearch = false
 
 -- Make line numbers default
 vim.wo.number = true
+vim.wo.relativenumber = true
+
+-- Set min number of lines that must be displayed above/below the cursor
+vim.wo.scrolloff = 8
 
 -- Enable mouse mode
 vim.o.mouse = 'a'
