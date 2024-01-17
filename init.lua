@@ -73,6 +73,9 @@ require('lazy').setup({
   'tpope/vim-fugitive',
   'tpope/vim-rhubarb',
 
+  -- Training is important, I wanne be good.
+  'ThePrimeagen/vim-be-good',
+
   -- Detect tabstop and shiftwidth automatically
   'tpope/vim-sleuth',
 
