@@ -327,6 +327,9 @@ vim.o.completeopt = 'menuone,noselect'
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
 
+-- [[ My Keymaps ]]
+vim.keymap.set({ 'n', 'v' }, '<leader>p', '\"_dP', { silent = true })
+
 -- [[ Basic Keymaps ]]
 
 -- Keymaps for better default experience
